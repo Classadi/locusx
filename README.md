@@ -53,7 +53,7 @@ This is a full-stack web application inspired by Rapido/Dunzo that enables real-
 - Leaflet.js (OpenStreetMap
 
 ---
-
+```
 locusx/
 ├── pages/
 │ ├── api/
@@ -80,7 +80,7 @@ locusx/
 ├── utils/
 │ └── socket.ts
 
-
+```
 
 ## 🚀 Running the Project
 
