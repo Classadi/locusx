@@ -1,4 +1,3 @@
-```md
 # locusX:  Real-Time Location Tracker for Multivendor Delivery Platform
 ![landingpg](https://github.com/user-attachments/assets/53bf82b4-a197-428f-901f-75e266ec8385)
 <br/>
@@ -54,9 +53,6 @@ This is a full-stack web application inspired by Rapido/Dunzo that enables real-
 
 ---
 
-
-
-```
 Project Structure
 /pages
 ├── api/
@@ -105,7 +101,6 @@ npm run dev
 
 ## 📦 Installation Guide
 
-```bash
 git clone https://github.com/your-username/locusx-real-time-tracker.git
 cd locusx-real-time-tracker
 
@@ -114,15 +109,14 @@ npm install
 
 # Create .env file
 touch .env.local
-```
 
 ### 🔐 `.env.local` Sample
 
-```env
+.env
 NEXT_PUBLIC_SOCKET_URL=http://localhost:4000
 MONGODB_URI=mongodb://localhost:27017/your-db-name
 JWT_SECRET=your_secret_key
-```
+
 
 ---
 
