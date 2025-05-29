@@ -54,34 +54,31 @@ This is a full-stack web application inspired by Rapido/Dunzo that enables real-
 
 ---
 
-Project Structure
-/pages
-├── api/
-│   └── login.ts
-├── customer/dashboard.tsx
-├── delivery/dashboard.tsx
-└── vendor/dashboard.tsx
+locusx/
+├── pages/
+│ ├── api/
+│ │ └── login.ts
+│ ├── customer/
+│ │ └── dashboard.tsx
+│ ├── delivery/
+│ │ └── dashboard.tsx
+│ └── vendor/
+│ └── dashboard.tsx
 
-/backend
-├── server.ts
-├── socket.ts
-├── model/userModel.ts
-└── utils/jwt.ts
+├── backend/
+│ ├── server.ts
+│ ├── socket.ts
+│ ├── model/
+│ │ └── userModel.ts
+│ └── utils/
+│ └── jwt.ts
 
-/src
-└── app/page.tsx
-
-/utils
-└── socket.ts
-
-/components
-├── MapTracker.tsx
-└── AnimatedWrapper.tsx
-
-/public
-└── marker-icon.png
-
-
+├── src/
+│ └── app/
+│ └── page.tsx
+│
+├── utils/
+│ └── socket.ts
 
 
 
@@ -89,28 +86,32 @@ Project Structure
 
 Open two terminals:
 
-Terminal 1: Start the Backend
+Terminal 1: Start the Backend:
+```bash
 npx tsx backend/server.ts
-
+```
 Terminal 2: Start the Frontend
+```bash
 npm run dev
-
+```
 
 > Ensure MongoDB is running locally or via a service like MongoDB Atlas.
 
 ---
 
 ## 📦 Installation Guide
-
+```bash
 git clone https://github.com/your-username/locusx-real-time-tracker.git
 cd locusx-real-time-tracker
-
+```
 # Install dependencies
+```bash
 npm install
-
+```
 # Create .env file
+```bash
 touch .env.local
-
+```
 ### 🔐 `.env.local` Sample
 
 .env
