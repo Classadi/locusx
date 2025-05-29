@@ -1,9 +1,7 @@
-
-
----
-
 ```md
-# 🚚 Real-Time Location Tracker for Multivendor Delivery Platform
+# locusX:  Real-Time Location Tracker for Multivendor Delivery Platform
+![landingpg](https://github.com/user-attachments/assets/53bf82b4-a197-428f-901f-75e266ec8385)
+<br/>
 
 This is a full-stack web application inspired by Rapido/Dunzo that enables real-time location tracking of delivery partners within a multivendor marketplace. Vendors can assign delivery partners to orders, delivery partners can share live location, and customers can track them on a map that auto-updates every 2–3 seconds.
 
@@ -16,15 +14,22 @@ This is a full-stack web application inspired by Rapido/Dunzo that enables real-
 - Session persistence using secure tokens.
 
 ### 🧑‍💼 Vendor Dashboard
+
+![vendor](https://github.com/user-attachments/assets/6e9b658b-f694-4a31-8a21-201e522bd60c)
+<br/>
 - View list of orders.
 - Assign delivery partners to orders.
 
 ### 🛵 Delivery Partner Dashboard
+![delivery](https://github.com/user-attachments/assets/5bc0f2ed-1809-48f5-b19d-e3038563c547)
+<br/>
 - View assigned orders.
 - Start delivery tracking — sends live geolocation every 2–3 seconds.
 - Animated GPS feedback using Framer Motion.
 
 ### 👤 Customer Dashboard
+![customer](https://github.com/user-attachments/assets/8ef6ce6c-37b4-40f8-ab4f-382998848f4a)
+<br/>
 - Track the real-time location of the delivery partner on a live Leaflet map.
 - Map auto-updates with latest coordinates via Socket.IO.
 
@@ -49,10 +54,10 @@ This is a full-stack web application inspired by Rapido/Dunzo that enables real-
 
 ---
 
-## 🧾 Project Structure
+
 
 ```
-
+Project Structure
 /pages
 ├── api/
 │   └── login.ts
@@ -149,12 +154,6 @@ Responsive design for all screens.
 
   * Real-time communication for location updates
   * Room-based broadcasting per `orderId`
-
----
-
-## 📃 License
-
-MIT – Open for use and learning.
 
 ---
 
