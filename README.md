@@ -3,6 +3,19 @@
 
 
 This is a full-stack web application inspired by Rapido/Dunzo that enables real-time location tracking of delivery partners within a multivendor marketplace. Vendors can assign delivery partners to orders, delivery partners can share live location, and customers can track them on a map that auto-updates every 2–3 seconds.
+website deployed at: https://locusx.vercel.app/
+
+Role: Vendor
+Sample Email: vendor@example.com
+Password: vendor123
+
+Role: Delivery
+Sample Email: delivery@example.com
+Password: delivery123
+
+Role: Customer
+Sample Email: customer@example.com
+Password: customer123
 
 ---
 
